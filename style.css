@@ -132,7 +132,6 @@ aside a:hover {
     margin-top: 40px;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .tartalom {
         flex-direction: column;
