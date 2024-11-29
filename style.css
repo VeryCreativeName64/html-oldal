@@ -12,8 +12,9 @@ img{
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-image: url("kepek/soros\ hatter.webp");
     color: #333;
+
 }
 
 
@@ -29,6 +30,8 @@ body {
     color: #fff;
     padding: 15px;
     text-align: center;
+    width:100%;
+    
 }
 
 #fejlec ul {
@@ -36,10 +39,11 @@ body {
 }
 
 #fejlec a {
-    color: #fff;
+    color: #df0c0c;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
+    
 }
 
 
@@ -155,4 +159,63 @@ aside a:hover {
         width: 100%;
         margin-left: 0;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section címek */
+h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #33ff00;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Minden egyes cikk (sör vagy bor) */
+article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+article h4 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+article p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Képek stílusa */
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
