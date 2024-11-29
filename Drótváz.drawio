@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="1 oldal" id="YGubyqJnH6Ft1BuwRRF5">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OAT-__X108wWxIbmUaok-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="114" y="100" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-7" value="Fejléc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-9" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-10" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="184" y="205" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-13" value="Artside" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-15" value="Nav" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-16" value="aside" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="205" width="110" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="605" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="605" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="605" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-25" value="h2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OAT-__X108wWxIbmUaok-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="229" y="280" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-28" value="Leírás" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OAT-__X108wWxIbmUaok-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OAT-__X108wWxIbmUaok-25" target="OAT-__X108wWxIbmUaok-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
