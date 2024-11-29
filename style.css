@@ -94,7 +94,9 @@ article h2 {
     margin-bottom: 15px;
     color: #333;
 }
-
+article h3 {
+    text-align: center;
+}
 article ul {
     list-style-type: disc;
     margin-left: 20px;
