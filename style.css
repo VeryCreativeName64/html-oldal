@@ -81,7 +81,13 @@ body {
 }
 
 
-
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: #df0c0c;
+    background-color: rgba(54, 54, 54, 0.877);
+    border-radius: 20px;
+}
 
 article {
     background-color: #2b2828;
