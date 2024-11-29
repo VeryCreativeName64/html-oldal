@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,33 @@
     <meta name="author" content="Marek Bendegúz Nagy Dominik">
     <title>Marek Bendegúz Nagy Dominik</title>
     <link rel="stylesheet" href="style.css">
+    <script> /*ezt a ChatGPT-vel csináltuk*/
+        // Korhatáros ellenőrzés
+        function korEllenorzes() {
+            const overlay = document.getElementById("ev");
+            overlay.style.display = "block";
+
+            document.getElementById("igen").onclick = function() {
+                overlay.style.display = "none";
+            };
+
+            document.getElementById("nem").onclick = function() {
+                alert("Sajnáljuk, csak 18 éven felüliek számára elérhető!");
+                window.location.href = "https://www.google.com"; // Átirányítás másik oldalra
+            };
+        }
+            
+        // Az oldal betöltésekor lefut a funkció
+        window.onload = korEllenorzes;
+        
+    </script> 
 </head>
 <body>
+    <div id="ev">
+        <h2>Elmúltál már 18 éves?</h2>
+        <button id="igen">Igen</button>
+        <button id="nem">Nem</button>
+    </div>
     <div id="tarolo">
         <header id="fejlec">
             <ul>
@@ -21,24 +46,30 @@
             <ul>
                 <li><a href="italaink.html">Italaink</a></li>
                 <li><a href="rendeles.html">Rendelés menete</a></li>
-                <li><a href="kapcsolat.html">kapcsolat</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
             </ul>
         </nav>
 
         <main class="tartalom">
             <article>
-                <h3 style="color: rgba(255, 255, 255, 0.753);">Szolgáltatásunk:</h3>
-                <p>Mi a DrinkWell-nél prémium italokat kínálunk, amelyek az Ön otthonába is gyorsan elérnek! A legjobb söröket, borokat, pálinkákat, és egyéb alkoholos italokat szállítjuk házhoz, hogy élvezhesse a barátokkal vagy családjával egy kellemes estét anélkül, hogy el kellene hagynia otthonát. Minden rendelést gyorsan és biztonságosan kiszállítunk, hogy Ön kényelmesen élvezhesse a legfinomabb italokat, amikor csak kedve tartja. Bármilyen eseményhez, vagy csak egy hétköznapi pihenéshez is ideális választás! Kényelmes online rendelés, rugalmas szállítás és kiváló ügyfélszolgálat – ez a mi ígéretünk Önnek!</p>
+                <h3 style="color: rgba(255, 255, 255, 0.753);">Szolgáltatásunk</h3>
+                <p>Mi a DrinkWell-nél elkötelezettek vagyunk amellett, hogy prémium minőségű italokat hozzunk el Önnek, közvetlenül az otthonába. Nemcsak a legjobb söröket és borokat válogattuk össze kínálatunkban, hanem különleges pálinkák, koktélalapanyagok, és más exkluzív alkoholos italok is megtalálhatók nálunk. Tudjuk, hogy egy jó ital megkoronázhatja az estét, legyen szó baráti összejövetelről, családi vacsoráról, romantikus randevúról, vagy épp egy nyugodt, otthoni pihenésről. Éppen ezért célunk, hogy kényelmesen és gyorsan elérhetővé tegyük ezeket az élményeket minden vásárlónk számára.</p>
 
+                <p>Házhoz szállítási szolgáltatásunkkal időt és energiát takaríthat meg. Ahelyett, hogy üzleteket járna be, a DrinkWell lehetővé teszi, hogy kedvenc itala csak néhány kattintásra legyen Öntől. Mindig arra törekszünk, hogy rendelése gyorsan és biztonságosan érkezzen meg, így Önnek csak az élvezetre kell koncentrálnia. Akár egy spontán kerti partihoz, akár egy régóta tervezett eseményhez keres italokat, nálunk minden alkalomra megtalálja a tökéletes választást.</p>
+                
+                <p>Az italok minősége mellett az ügyfélszolgálatunk is kiemelkedő: bármilyen kérdése van, vagy egyedi igénye merül fel, csapatunk készséggel áll rendelkezésére. Rugalmas szállítási lehetőségeinkkel Ön dönthet arról, mikor és hová érkezzen meg rendelése. Emellett rendszeres akciókkal és különleges ajánlatokkal tesszük még vonzóbbá kínálatunkat. Célunk, hogy ne csak termékeket adjunk el, hanem valódi élményt nyújtsunk minden vásárlónknak. Próbálja ki szolgáltatásunkat, és tapasztalja meg, milyen egyszerű és kényelmes a DrinkWell-lel vásárolni!</p>
+                
+                <p>Nem számít, hogy hétvégi kikapcsolódáshoz, ünnepi összejövetelhez, vagy akár egy meglepetés ajándékhoz keres italt – nálunk mindig jó helyen jár. Minden italunk gondosan válogatott, és a piacon elérhető legjobb minőséget képviseli. Legyen szó különleges borokról, kézműves sörökről vagy egy-egy ritka pálinkáról, biztos lehet benne, hogy nálunk csak a legkiválóbb termékek közül válogathat. A DrinkWell több mint egy online italbolt: ez a minőség és a kényelem találkozása. Engedje, hogy mi gondoskodjunk a következő italáról, Ön pedig élvezze az estét gondtalanul!</p>
+                        
             </article>
 
             <aside>
-                <h3>Ők is minket választottak:</h3>
-                <img src="kepek/kkevin.jpg" alt="kkevin" srcset="">
+                <h3>Ők is minket választottak</h3>
+                <img src="kepek/kkevin.jpg" alt="kkevin">
                 <h3>KKevin</h3>
-                <img src="kepek/majka.jpg" alt="majka" srcset="">
+                <img src="kepek/majka.jpg" alt="majka">
                 <h3>Majka</h3>
-                <img src="kepek/hofi.jpg" alt="hofi" srcset="">
+                <img src="kepek/hofi.jpg" alt="hofi">
                 <h3>Beton.Hofi</h3>
             </aside>
         </main>

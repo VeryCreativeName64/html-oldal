@@ -7,14 +7,13 @@
 img{
     width: 250px;
     height: 180px;
+    border-radius: 20px;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url("kepek/soros\ hatter.webp");
-    color: #333;
-
 }
 
 
@@ -27,16 +26,12 @@ body {
 
 #fejlec {
     background-color: #333;
-    color: #fff;
     padding: 15px;
     text-align: center;
     width:100%;
     
 }
 
-#fejlec ul {
-    list-style-type: none;
-}
 
 #fejlec a {
     color: #df0c0c;
@@ -49,7 +44,7 @@ body {
 
 .menu {
     background-color: #444;
-    overflow: hidden;
+    
 }
 
 .menu ul {
@@ -76,15 +71,17 @@ body {
 
 .tartalom {
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
+}
+.tartalom p{
+    color: rgba(255, 255, 255, 0.651);
 }
 
 
 h3{
     text-align: center;
     font-size: 50px;
-    color: #df0c0c;
+    color: #dbc3c3;
     background-color: rgba(54, 54, 54, 0.877);
     border-radius: 20px;
 }
@@ -92,15 +89,14 @@ h3{
 article {
     background-color: #2b2828;
     border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 article:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -108,7 +104,6 @@ article h4 {
     font-size: 24px;
     color: #d6d6d6e0;
     margin-bottom: 15px;
-    font-weight: bold;
 }
 
 
@@ -116,7 +111,6 @@ article p {
     font-size: 16px;
     color: #7f8c8d;
     margin-bottom: 20px;
-    line-height: 1.5;
 }
 
 
@@ -128,91 +122,41 @@ article img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-section.rendeles-menete {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-section.rendeles-menete h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-section.rendeles-menete p {
-    font-size: 1.2em;
-    margin-bottom: 40px;
-}
 .lepes {
     background-color: #535353;
     border-radius: 8px;
-    padding: 150px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    width: 130%;
 }
 
-.lepes img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 20px;
-}
 
 .lepes h3 {
-    font-size: 1.8em;
+    font-size: 25px;
     margin-bottom: 15px;
     color: #ffffff;
 }
 
 .lepes p {
-    font-size: 1.2em;
+    font-size: 19px;
     margin-bottom: 15px;
+    color: rgb(202, 202, 202);
 }
-
-
 
 
 aside {
     width: 25%;
-    background-color: #e2e2e2;
+    background-color: #585858;
     padding: 15px;
     margin-left: 20px;
+    border-radius: 20px;
 }
 
 aside h3 {
     font-size: 24px;
     margin-bottom: 15px;
-}
-
-aside ul {
-    list-style-type: none;
-}
-
-aside li {
-    margin-bottom: 10px;
-}
-
-aside a {
-    color: #333;
-    text-decoration: none;
-}
-
-aside a:hover {
-    text-decoration: underline;
+    
 }
 
 
@@ -223,6 +167,57 @@ aside a:hover {
     padding: 20px;
     margin-top: 40px;
 }
+
+
+/* Overlay stílusok */
+#ev {
+    display: none; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); 
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#ev h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#ev button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#igen {
+    background-color: green;
+    color: white;
+}
+
+#igen:hover {
+    background-color: limegreen;
+}
+
+#nem {
+    background-color: red;
+    color: white;
+}
+
+#nem:hover {
+    background-color: darkred;
+}
+
+
 
 
 @media screen and (max-width: 480px) {
