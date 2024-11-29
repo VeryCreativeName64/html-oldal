@@ -1,11 +1,14 @@
-/* General reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 250px;
+    height: 180px;
+}
 
-/* Body and page layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,14 +16,14 @@ body {
     color: #333;
 }
 
-/* Main container */
+
 #tarolo {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header */
+
 #fejlec {
     background-color: #333;
     color: #fff;
@@ -39,7 +42,7 @@ body {
     font-weight: bold;
 }
 
-/* Navigation menu */
+
 .menu {
     background-color: #444;
     overflow: hidden;
@@ -66,16 +69,20 @@ body {
     background-color: #575757;
 }
 
-/* Main content */
+
 .tartalom {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-/* Article styling */
+
 article {
-    width: 70%;
+    height: 20%;
+    width: 85%;
+    background-color: #e2e2e2;
+    padding: 15px;
+    margin-left: 20px;
 }
 
 article h2 {
@@ -93,7 +100,7 @@ article li {
     margin-bottom: 10px;
 }
 
-/* Aside styling */
+
 aside {
     width: 25%;
     background-color: #e2e2e2;
@@ -123,7 +130,7 @@ aside a:hover {
     text-decoration: underline;
 }
 
-/* Footer styling */
+
 #lablec {
     background-color: #333;
     color: #fff;
@@ -131,6 +138,7 @@ aside a:hover {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 @media screen and (max-width: 768px) {
     .tartalom {
